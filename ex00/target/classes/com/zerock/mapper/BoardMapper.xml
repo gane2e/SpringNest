@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.zerock.mapper.BoardMapper">
+	<select id="getList" resultType="com.zerock.dto.BoardVO">
+		 select * from board
+	</select>
+</mapper>
