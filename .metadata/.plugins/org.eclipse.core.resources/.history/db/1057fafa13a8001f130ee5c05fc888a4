@@ -1,0 +1,11 @@
+package org.zerock.mapper;
+
+import java.util.List;
+
+import org.zerock.model.PhoneProduct;
+
+public interface PhoneMapper {
+	
+	List<PhoneProduct> getAllProducts();
+
+}

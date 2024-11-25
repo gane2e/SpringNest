@@ -1,0 +1,11 @@
+package com.zerock.mapper;
+
+import java.util.List;
+
+import com.zerock.dto.BoardVO;
+import com.zerock.dto.ProductVO;
+
+public class MainMapper {
+
+	public List<ProductVO> getProduct();
+}

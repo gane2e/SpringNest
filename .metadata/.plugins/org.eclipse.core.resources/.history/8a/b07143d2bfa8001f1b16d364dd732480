@@ -1,0 +1,19 @@
+package org.zerock.model;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class UserVO {
+	
+	private long uno; //user식별
+	private String email;
+	private String name;
+	private String password;
+	private String phone;
+	private String addr;
+	private Date regdate;
+	private String role;
+
+}

@@ -1,0 +1,28 @@
+package org.zerock.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.zerock.mapper.PhoneMapper;
+import org.zerock.model.PhoneProduct;
+
+@Service
+public class PhoneService {
+	
+	@Autowired
+	private PhoneMapper mapper;
+
+	//상품정보
+	public List<PhoneProduct> getAllProducts(){
+		  return mapper.getAllProducts();
+	}
+	
+	//신청내역
+	public void applyForProduct(int uno, int cno) {
+	        PhoneApplication application = new PhoneApplication();
+	        application.setUno(uno);  // 하드코딩된 UNO (예: 1)
+	        application.setCno(cno);
+	        phoneMapper.insertApplication(application);
+    }
+}

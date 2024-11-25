@@ -1,0 +1,14 @@
+package com.zerock.service;
+
+import java.util.List;
+
+import com.zerock.dto.ProductVO;
+
+public class MainServiceImpl implements MainService{
+
+	@Override
+	public List<ProductVO> getProduct() {
+		return null;
+	}
+
+}

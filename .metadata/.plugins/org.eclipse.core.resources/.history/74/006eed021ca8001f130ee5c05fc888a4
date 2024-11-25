@@ -1,0 +1,48 @@
+package org.zerock.mapper;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.zerock.model.PhoneApplication;
+import org.zerock.model.PhoneProduct;
+
+import lombok.extern.log4j.Log4j;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@Log4j
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
+public class PhoneMapperTests {
+
+	@Autowired
+	private PhoneMapper mapper;
+	
+	@Autowired
+    private SqlSessionTemplate sqlSessionTemplate;
+	
+	@Test
+	public void testgetAllProducts() {
+		
+		List<PhoneProduct> products = mapper.getAllProducts();
+		products.forEach(phone -> log.info(products));
+	}
+	
+	@Test
+	public void testInsertApplication() {
+		
+		  PhoneApplication application = new PhoneApplication();
+		  application.setUno(2);  // 하드코딩된 UNO 값
+	      application.setCno(1);  // 예시 상품 번호
+	      
+	      // 상품 신청 insert
+	      mapper.insertApplication(application);
+
+	}
+
+}

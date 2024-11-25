@@ -1,0 +1,11 @@
+package org.zerock.model;
+
+import lombok.Data;
+
+@Data
+public class PhoneProduct {
+	
+	private Long cno;
+	private String serial;
+	private String giga;
+}
