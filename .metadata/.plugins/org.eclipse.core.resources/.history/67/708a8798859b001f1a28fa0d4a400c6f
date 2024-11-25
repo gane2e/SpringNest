@@ -1,8 +1,0 @@
-package com.zerock.sample;
-
-@log
-public class JDBCTests {
-
-	@Test
-	
-}
