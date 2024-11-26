@@ -1,0 +1,30 @@
+[
+  {
+    "title": "만능 야채절임소스 3입 270g",
+    "before-price": "3,300원",
+    "discount": "30%",
+    "after-price": "2,310원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/sauce-vegepickle-bundle-list.png"
+  },
+  {
+    "title": "만능 고기시즈닝 10입 150g",
+    "before-price": "6,000원",
+    "discount": "20%",
+    "after-price": "4,800원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/sauce-meatseasoning-bundle-list.png"
+  },
+  {
+    "title": "구워먹는 김치 500g",
+    "before-price": "5,900원",
+    "discount": "10%",
+    "after-price": "5,310원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/kimchi-napacabbage-500g-list.png"
+  },
+  {
+    "title": "제대로 볶은 김자반 50g",
+    "before-price": "2,900원",
+    "discount": "30%",
+    "after-price": "2,030원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/laver-welldried-50g-list.png"
+  }
+]

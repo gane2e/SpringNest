@@ -1,0 +1,42 @@
+[
+  {
+    "title": "초신선 삼겹살 김치찜 985g",
+    "price": "19,900원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/kimchi-jjim-porkbelly-list.png"
+  },
+  {
+    "title": "초신선 돼지고기 김치찌개 1135g",
+    "price": "17,000원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/kimchi-jjigae-porkend-list.png"
+  },
+  {
+    "title": "초신선 전복삼계탕",
+    "price": "19,900원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/abalone-samgyetang-list.png"
+  },
+  {
+    "title": "초신선 닭백숙",
+    "price": "19,900원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/boiled-chicken-list.png"
+  },
+  {
+    "title": "초신선 돼지 삼겹살 구이용 600g",
+    "price": "21,600원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/porkbelly-fresh-list.png"
+  },
+  {
+    "title": "초신선 돼지 목살 구이용 600g",
+    "price": "18,600원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/porkneck-clean-list.png"
+  },
+  {
+    "title": "초신선 무항생제 우유 900ml",
+    "price": "4,300원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/milk-fresh-list.png"
+  },
+  {
+    "title": "초신선 돼지 찌개용 300g",
+    "price": "7,500원",
+    "url": "https://sajygdev.blob.core.windows.net/$web/standard_assets/s3/jyg-custom-seoul-app/frontend/thumbnails/transparent_background/porkend-fresh-list.png"
+  }
+]
