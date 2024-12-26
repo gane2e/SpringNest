@@ -23,13 +23,12 @@ public class UserMapperTest {
 	@Test
 	public void save() {
 		UserVO vo = new UserVO();
-		
-		vo.setUserid("b1a4098962");
-		vo.setPassword("rkdmsdl11~2");
-		vo.setName("rkrkrk");
-		vo.setEmail("b1a4123@naver.com");
-		
-		mapper.save(vo);
+		/*
+		 * vo.setUserid("b1a4098962"); vo.setPassword("rkdmsdl11~2");
+		 * vo.setName("rkrkrk"); vo.setEmail("b1a4123@naver.com");
+		 * 
+		 * mapper.save(vo);
+		 */
 		
 	};
 

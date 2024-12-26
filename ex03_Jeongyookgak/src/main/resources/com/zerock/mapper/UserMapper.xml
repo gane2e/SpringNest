@@ -5,16 +5,50 @@
 
 <mapper namespace="com.zerock.mapper.UserMapper">
 
-	<insert id="save">
-		insert into users(user_id, username, email, password_hash)
-		values(#{userid}, #{name}, #{email}, #{password})
+	<!-- 회원가입 처리 -->
+	<insert id="insertUser">
+		INSERT INTO USERS (uno, user_id, username, email,
+		password_hash, address, phone,
+		date_of_birth, gender)
+		VALUES
+		(seq_user.nextval, #{user_id}, #{username}, #{email} ,
+		#{password},
+		#{addr}, #{phone},
+		#{date_of_birth}, #{gender}
+		)
 	</insert>
-	
+
 	<!-- 사용자 정보를 아이디로 조회하는 SQL 쿼리 -->
-    <select id="findById" resultType="com.zerock.dto.UserVO">
-        SELECT user_id, username, email, password_hash
-        FROM users
-        WHERE user_id = #{userid}
-    </select>
+	<select id="login" resultType="com.zerock.dto.UserVO">
+		SELECT user_id, username, email,
+		password_hash, address, phone,
+		date_of_birth, regdate, gender
+		FROM
+		users;
+		WHERE user_id=#{user_id}
+	</select>
+
+	<!-- 카카오로그인정보 조회 -->
+	<select id="kakaoLogin" resultType="com.zerock.dto.UserVO">
+		SELECT user_id, username, email,
+		password_hash, address, phone,
+		date_of_birth, regdate, gender, kakaoid
+		from users
+		where kakaoid = #{kakaoId}
+	</select>
+
+	<!-- 카카오 연동 회원가입 -->
+	<insert id="kakaoJoin">
+		INSERT INTO USERS (UNO, EMAIL, NAME, PASSWORD, PHONE, ADDR, kakaoid)
+		VALUES (SEQ_USERS.nextval, #{email}, #{name}, #{password}, #{phone},
+		#{addr}, #{kakaoId})
+	</insert>
+
+	<!-- 카카오 연동 해제 -->
+	<update id="deleteKakao">
+		UPDATE USERS
+		SET kakaoid = null
+		WHERE kakaoid = #{kakaoId}
+	</update>
 
 </mapper>

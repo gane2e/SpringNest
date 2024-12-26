@@ -1,8 +1,0 @@
-package com.zerock.dto;
-
-import lombok.Data;
-
-@Data
-public class ProductVO {
-
-}

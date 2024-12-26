@@ -109,6 +109,10 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Works\spring\KakaoTest"/>
+			<item value="C:\Works\spring\Umobile2"/>
+			<item value="C:\Works\spring\Umobile"/>
+			<item value="C:\Works\spring\ex02_Umobile"/>
 			<item value="C:\Works\spring\Umodile"/>
 			<item value="C:\Works\spring\ex02_기본화면구성완료"/>
 		</list>

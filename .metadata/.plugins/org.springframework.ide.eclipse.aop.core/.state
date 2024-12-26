@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="Umodile"/>
-<aop-project name="ex00"/>
-<aop-project name="ex02_기본화면구성완료"/>
-<aop-project name="PhoneProject"/>
+<aop-project name="ex01_기본화면구성완료"/>
+<aop-project name="Umobile"/>
+<aop-project name="KakaoTest"/>
+<aop-project name="ex03_Jeongyookgak"/>
+<aop-project name="ex02_Umobile"/>
 </aop-reference-model>

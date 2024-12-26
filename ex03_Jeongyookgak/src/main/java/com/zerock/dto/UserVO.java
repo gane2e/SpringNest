@@ -1,16 +1,33 @@
 package com.zerock.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import java.util.Date;
 
-@Getter
-@Setter
-@ToString
+import org.springframework.format.annotation.DateTimeFormat;
+
+import lombok.Data;
+
+@Data
 public class UserVO {
 
-	private String userid;
-	private String name;
+	private long uno;
+
+	private String user_id;
+	private String username;
 	private String email;
+	
 	private String password;
+	private String passwordConfirm;
+	
+	private String addr;
+	private String phone;
+	
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	private Date date_of_birth;
+	private Date regdate;
+	private String gender;
+
+	
+	/* 카카오회원 정보 */
+	private String kakaoId;
+	private String accessToken;
 }
